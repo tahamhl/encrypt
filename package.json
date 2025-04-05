@@ -1,0 +1,21 @@
+{
+  "name": "encryption-algorithms",
+  "version": "1.0.0",
+  "description": "Temel şifreleme algoritmalarının JavaScript implementasyonları",
+  "main": "encryption.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Taha Mehel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tahamhl/encrypt"
+  },
+  "keywords": [
+    "encryption",
+    "caesar",
+    "vigenere",
+    "rot13",
+    "base64"
+  ]
+} 
