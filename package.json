@@ -7,10 +7,9 @@
     "test": "node test.js"
   },
   "author": "Taha Mehel",
-  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/[kullanıcı-adınız]/encrypt"
+    "url": "https://github.com/tahamhl/encrypt"
   },
   "keywords": [
     "encryption",
