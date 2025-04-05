@@ -16,7 +16,7 @@ Bu algoritmaların çalışan bir demosunu görmek ve test etmek için [tahamehe
 
 ```bash
 # Repoyu klonlayın
-git clone https://github.com/[kullanıcı-adınız]/encrypt
+git clone https://github.com/tahamhl/encrypt
 
 # Proje dizinine gidin
 cd encrypt
@@ -61,9 +61,7 @@ const kodlanmisMetin = base64Encode(metin);
 const cozulmusMetin = base64Decode(kodlanmisMetin);
 ```
 
-## Lisans
 
-MIT
 
 ## İletişim
 
