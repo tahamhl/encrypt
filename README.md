@@ -11,13 +11,12 @@ Bu algoritmaların çalışan bir demosunu görmek ve test etmek için [tahamehe
 - Sezar Şifreleme
 - Vigenère Şifreleme
 - Base64 Kodlama/Çözme
-- ROT13 Şifreleme
 
 ## Kurulum
 
 ```bash
 # Repoyu klonlayın
-git clone https://github.com/tahamhl/encrypt
+git clone https://github.com/[kullanıcı-adınız]/encrypt
 
 # Proje dizinine gidin
 cd encrypt
@@ -53,15 +52,6 @@ const sifreliMetin = encryptVigenere(metin, anahtar);
 const cozulmusMetin = decryptVigenere(sifreliMetin, anahtar);
 ```
 
-### ROT13 Şifreleme
-```javascript
-const { rot13 } = require('./encryption');
-
-const metin = "Merhaba";
-const sifreliMetin = rot13(metin);
-const cozulmusMetin = rot13(sifreliMetin); // ROT13 kendisinin tersidir
-```
-
 ### Base64 Kodlama
 ```javascript
 const { base64Encode, base64Decode } = require('./encryption');
@@ -71,7 +61,9 @@ const kodlanmisMetin = base64Encode(metin);
 const cozulmusMetin = base64Decode(kodlanmisMetin);
 ```
 
+## Lisans
 
+MIT
 
 ## İletişim
 
