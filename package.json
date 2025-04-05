@@ -7,15 +7,15 @@
     "test": "node test.js"
   },
   "author": "Taha Mehel",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tahamhl/encrypt"
+    "url": "https://github.com/[kullanıcı-adınız]/encrypt"
   },
   "keywords": [
     "encryption",
     "caesar",
     "vigenere",
-    "rot13",
     "base64"
   ]
 } 

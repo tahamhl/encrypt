@@ -3,7 +3,6 @@ const {
     decryptCaesar,
     encryptVigenere,
     decryptVigenere,
-    rot13,
     base64Encode,
     base64Decode
 } = require('./encryption');
@@ -25,12 +24,6 @@ const vigenereEncrypted = encryptVigenere(testText, vigenereKey);
 console.log("\nVigenère Şifreleme (key=ANAHTAR):");
 console.log("Şifreli:", vigenereEncrypted);
 console.log("Çözülmüş:", decryptVigenere(vigenereEncrypted, vigenereKey));
-
-// ROT13 Testi
-const rot13Encrypted = rot13(testText);
-console.log("\nROT13 Şifreleme:");
-console.log("Şifreli:", rot13Encrypted);
-console.log("Çözülmüş:", rot13(rot13Encrypted)); // ROT13 kendisinin tersidir
 
 // Base64 Testi
 const base64Encrypted = base64Encode(testText);

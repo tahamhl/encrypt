@@ -68,11 +68,6 @@ function decryptVigenere(text, key) {
     return result;
 }
 
-// ROT13 Şifreleme (Caesar şifrelemenin özel bir hali)
-function rot13(text) {
-    return encryptCaesar(text, 13);
-}
-
 // Base64 Kodlama
 function base64Encode(text) {
     return btoa(text);
@@ -89,7 +84,6 @@ module.exports = {
     decryptCaesar,
     encryptVigenere,
     decryptVigenere,
-    rot13,
     base64Encode,
     base64Decode
 }; 
